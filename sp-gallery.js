@@ -104,7 +104,7 @@ Handlebars.registerHelper('imgSrc', function(data) {
     var url = _spPageContextInfo.siteAbsoluteUrl;
     url += data.Path;
     url += '/' + data.Name;
-    return url.replace('/sites/myngn');
+    return url.replace('/sites/myngn', '');
 });
 
 Handlebars.registerHelper('imgSrcThumb', function(data) {
@@ -114,5 +114,5 @@ Handlebars.registerHelper('imgSrcThumb', function(data) {
     var url = _spPageContextInfo.siteAbsoluteUrl;
     url += data.Path;
     url += '/_t/' + thumb;
-    return url.replace('/sites/myngn');
+    return url.replace('/sites/myngn', '');
 });
