@@ -11,7 +11,7 @@
   height: 100px;
   background-position: center center !important;
   text-indent: -9999px;
-  background: no-repeat;
+  background-repeat: no-repeat;
 }
 .thumbnailHidden {
   display:none;
