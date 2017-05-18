@@ -104,7 +104,7 @@ Handlebars.registerHelper('imgSrc', function(data) {
     var url = _spPageContextInfo.siteAbsoluteUrl;
     url += data.Path;
     url += '/' + data.Name;
-    return url.replace('/sites/collectionName', '');
+    return url.replace('/sites/myngn', ''); // replace with collection name
 });
 
 Handlebars.registerHelper('imgSrcThumb', function(data) {
