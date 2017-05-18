@@ -114,5 +114,5 @@ Handlebars.registerHelper('imgSrcThumb', function(data) {
     var url = _spPageContextInfo.siteAbsoluteUrl;
     url += data.Path;
     url += '/_t/' + thumb;
-    return url.replace('/sites/collectionName', '');
+    return url.replace('/sites/myngn', ''); // replace with collection name
 });
