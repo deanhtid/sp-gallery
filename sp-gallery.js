@@ -78,6 +78,7 @@ var gallery = function(list) {
 
     var ajax = $.ajax({
         url: url,
+        async: true,
         method: 'GET',
         headers: {'Accept': 'application/json; odata=verbose'},
         error: function(data) {
