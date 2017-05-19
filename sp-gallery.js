@@ -43,7 +43,6 @@ var gallery = function(list) {
       var template = Handlebars.compile(source);
       $('.photo-gallery-wrap').append(template(data));
 
-      $.holdReady(true);
       $('.popup').magnificPopup({
           type: 'image',
           gallery: {
@@ -53,7 +52,6 @@ var gallery = function(list) {
           removalDelay: 300,
           mainClass: 'mfp-fade',
       });
-      $holdReady(false);
   };
 
   function getListCount(webUrl, listName) {
