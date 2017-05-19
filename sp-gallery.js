@@ -43,16 +43,14 @@ var gallery = function(list) {
       var template = Handlebars.compile(source);
       $('.photo-gallery-wrap').append(template(data));
 
-      $(document).ready(function() {
-        $('.popup').magnificPopup({
-          type: 'image',
-          gallery: {
-            preload: [0, 5],
-            enabled: true,
-          },
-          removalDelay: 300,
-          mainClass: 'mfp-fade',
-        });
+      $('.popup').magnificPopup({
+        type: 'image',
+        gallery: {
+          preload: [0, 5],
+          enabled: true,
+        },
+        removalDelay: 300,
+        mainClass: 'mfp-fade',
       });
   };
 
