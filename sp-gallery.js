@@ -43,7 +43,8 @@ var gallery = function(list) {
       var template = Handlebars.compile(source);
       $('.photo-gallery-wrap').append(template(data));
 
-      $('.popup').magnificPopup({
+      $(document).ready(function() {
+        $('.popup').magnificPopup({
           type: 'image',
           gallery: {
             preload: [0, 5],
@@ -51,6 +52,7 @@ var gallery = function(list) {
           },
           removalDelay: 300,
           mainClass: 'mfp-fade',
+        });
       });
   };
 
