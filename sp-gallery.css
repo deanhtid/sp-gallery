@@ -1,3 +1,9 @@
+/*******overwrite ngn css******/
+main .panel {
+  border-radius: 0 !important;
+  background: #dddddd !important;
+}
+
 /*******photo gallery******/
 
 .photo-gallery-wrap {
@@ -88,11 +94,3 @@
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
-
-// Overide NGN css
-main .panel {
-  border-radius: 0 !important;
-  background: #dddddd !important;
-}
-
-
