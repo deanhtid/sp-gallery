@@ -89,4 +89,10 @@
   opacity: 0;
 }
 
+// Overide NGN css
+.panel {
+  border-radius: 0;
+  background: #dddddd;
+}
+
 
