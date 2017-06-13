@@ -90,7 +90,7 @@
 }
 
 // Overide NGN css
-.panel {
+main .panel {
   border-radius: 0 !important;
   background: #dddddd !important;
 }
